@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/projects/google-maps-itinerary/static/js/main.0fb2134a.js",
+    "index.html": "/projects/google-maps-itinerary/index.html",
+    "main.0fb2134a.js.map": "/projects/google-maps-itinerary/static/js/main.0fb2134a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0fb2134a.js"
+  ]
+}
