@@ -13,7 +13,10 @@
     "code"
   ],
   "token_endpoint_auth_method": "none",
-  "allowedScopes": ["https://mcp.com/scope1", "https://mcp.com/scope2"]
+  "allowedScopes": [
+    {"fqs": "https://mcp.com/scope1"}, 
+    {"fqs": "https://mcp.com/scope2"}
+  ]
   "logo_uri": "https://oauth.net/images/oauth-2-sm.png",
   "jwks_uri": "https://cimd.identity.internal.oracle.com:8943/admin/v1/SigningCert/jwk"
 }
