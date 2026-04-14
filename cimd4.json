@@ -1,0 +1,19 @@
+{
+  "client_id": "https://raw.githubusercontent.com/utk1801/utk1801.github.io/refs/heads/master/cimd4.json",
+  "client_name": "Example Client",
+  "client_uri": "https://client.example.com",
+  "redirect_uris": [
+    "https://jwt.io/"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "https://mcp.com/scope1 https://mcp.com/scope2",
+  "logo_uri": "https://oauth.net/images/oauth-2-sm.png",
+  "jwks_uri": "https://cimd.identity.internal.oracle.com:8943/admin/v1/SigningCert/jwk"
+}
