@@ -14,5 +14,5 @@
   ],
   "token_endpoint_auth_method": "private_key_jwt",
   "scope": "openid profile email",
-  "jwks_uri": "https://cimd.identity.internal.oracle.com:8943/admin/v1/SigningCert/jwk"
+  "jwks_uri": "https://raw.githubusercontent.com/utk1801/utk1801.github.io/refs/heads/master/jwks_url.json"
 }
