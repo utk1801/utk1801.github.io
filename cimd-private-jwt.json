@@ -1,0 +1,18 @@
+{
+  "client_id": "https://raw.githubusercontent.com/utk1801/utk1801.github.io/refs/heads/master/cimd-private-jwt.json",
+  "client_name": "CIMD Client using private key jwt auth method",
+  "client_uri": "https://client.example.com",
+  "redirect_uris": [
+    "https://jwt.io/", "http://localhost:3000/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "scope": "openid profile email",
+  "jwks_uri": "https://cimd.identity.internal.oracle.com:8943/admin/v1/SigningCert/jwk"
+}
