@@ -14,7 +14,7 @@
     "code"
   ],
   "token_endpoint_auth_method": "none",
-  "scope": "openid profile email",
+  "scope": "openid profile urn:opc:idm:__myscopes__",
   "logo_uri": "https://oauth.net/images/oauth-2-sm.png",
   "jwks_uri": "https://cimd.identity.internal.oracle.com:8943/admin/v1/SigningCert/jwk"
 }
