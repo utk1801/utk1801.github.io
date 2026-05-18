@@ -1,0 +1,12 @@
+{
+  "client_id": "https://raw.githubusercontent.com/utk1801/utk1801.github.io/refs/heads/master/cursor-mcp-client.json",
+  "client_name": "Cursor MCP Client",
+  "client_uri": "https://cursor.com",
+  "redirect_uris": [
+    "cursor://anysphere.cursor-mcp/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email"
+}
