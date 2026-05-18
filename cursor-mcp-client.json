@@ -1,5 +1,5 @@
 {
-  "client_id": "https://raw.githubusercontent.com/utk1801/utk1801.github.io/refs/heads/master/cursor-mcp-client.json",
+  "client_id": "https://utk1801.github.io/cursor-mcp-client.json",
   "client_name": "Cursor MCP Client",
   "client_uri": "https://cursor.com",
   "redirect_uris": [
