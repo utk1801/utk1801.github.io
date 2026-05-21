@@ -1,0 +1,20 @@
+{
+  "client_id": "https://utk1801.github.io/redirectUriCimdMismatch.json",
+  "client_name": "Example Client",
+  "client_uri": "https://client.example.com",
+  "redirect_uris": [
+    "https://jwt.io/",
+    "https://127.0.0.1:4443/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile",
+  "logo_uri": "https://oauth.net/images/oauth-2-sm.png",
+  "jwks_uri": "https://cimd.identity.internal.oracle.com:8943/admin/v1/SigningCert/jwk"
+}
