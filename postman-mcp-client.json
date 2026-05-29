@@ -1,0 +1,12 @@
+{
+  "client_id": "https://utk1801.github.io/postman-mcp-client.json",
+  "client_name": "Postman MCP Client",
+  "client_uri": "https://oauth.pstmn.io",
+  "redirect_uris": [
+    "https://oauth.pstmn.io/v1/browser-callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email"
+}
