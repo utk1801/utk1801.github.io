@@ -1,0 +1,19 @@
+{
+  "client_id": "https://utk1801.github.io/cimd-private-jwt-assertion.json",
+  "client_name": "CIMD Client using private key jwt auth method and assertion grant",
+  "client_uri": "https://client.example.com",
+  "redirect_uris": [
+    "https://jwt.io/"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "scope": "openid profile email",
+  "jwks_uri": "https://utk1801.github.io/jwks_url.json"
+}
