@@ -14,5 +14,5 @@
   ],
   "token_endpoint_auth_method": "private_key_jwt",
   "scope": "openid profile email",
-  "jwks_uri": "https://raw.githubusercontent.com/utk1801/utk1801.github.io/refs/heads/master/jwks_url.json"
+  "jwks_uri": "https://utk1801.github.io/jwks_url.json"
 }
