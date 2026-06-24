@@ -8,7 +8,6 @@
   "grant_types": [
     "authorization_code",
     "refresh_token",
-    "urn:ietf:params:oauth:grant-type:jwt-bearer",
     "client_credentials"
   ],
   "response_types": [
