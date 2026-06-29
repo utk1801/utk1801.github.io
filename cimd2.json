@@ -4,7 +4,7 @@
   "client_uri": "https://client.example.com",
   "redirect_uris": [
     "https://jwt.io/",
-    "https://127.0.0.1:4443/callback"
+    "http://127.0.0.1:4443/callback"
   ],
   "grant_types": [
     "authorization_code",
