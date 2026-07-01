@@ -3,7 +3,8 @@
   "client_name": "CIMD Client using private key jwt auth method and assertion grant",
   "client_uri": "https://client.example.com",
   "redirect_uris": [
-    "https://jwt.io/"
+    "https://jwt.io/",
+    "https://utk1801.github.io/callback"
   ],
   "grant_types": [
     "authorization_code",
