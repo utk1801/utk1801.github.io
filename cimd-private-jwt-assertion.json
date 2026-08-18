@@ -15,7 +15,7 @@
   "response_types": [
     "code"
   ],
-  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_method": ["private_key_jwt", "none"],
   "scope": "openid profile email",
   "jwks_uri": "https://utk1801.github.io/jwks_url.json"
 }
