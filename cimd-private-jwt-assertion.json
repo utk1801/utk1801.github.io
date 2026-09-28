@@ -4,7 +4,8 @@
   "client_uri": "https://client.example.com",
   "redirect_uris": [
     "https://jwt.io/",
-    "https://utk1801.github.io/callback"
+    "https://utk1801.github.io/callback",
+    "http://localhost"
   ],
   "grant_types": [
     "authorization_code",
