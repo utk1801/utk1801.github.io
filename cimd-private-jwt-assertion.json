@@ -5,7 +5,8 @@
   "redirect_uris": [
     "https://jwt.io/",
     "https://utk1801.github.io/callback",
-    "http://localhost"
+    "http://localhost",
+    "http://127.0.0.1:4173/callback"
   ],
   "grant_types": [
     "authorization_code",
